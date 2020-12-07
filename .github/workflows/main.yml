@@ -46,4 +46,6 @@ jobs:
       
       - name: yarn build
         run: yarn run build
+        env:
+          CI: true
 
