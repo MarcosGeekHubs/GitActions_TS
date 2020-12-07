@@ -1,4 +1,4 @@
-import HelloWorld from "../src/HelloWorld"
+import HelloWorld from "../src/GitActions_TS/HelloWorld"
 
 describe('Hello World', () => {
 
