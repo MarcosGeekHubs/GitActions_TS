@@ -42,5 +42,5 @@ jobs:
         run: yarn test:lint
       
       - name: yarn test coverage
-        run: jest --coverage --no-cache
+        run: yarn test:coverage
 
