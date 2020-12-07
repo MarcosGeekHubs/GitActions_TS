@@ -1,2 +1,0 @@
-{"/home/marcware/Develop/GHA/BTC-AgileSoftware/Kata3-GitActions/GitActions_TS/src/HelloWorld.ts": {"path":"/home/marcware/Develop/GHA/BTC-AgileSoftware/Kata3-GitActions/GitActions_TS/src/HelloWorld.ts","statementMap":{"0":{"start":{"line":3,"column":8},"end":{"line":3,"column":29}},"1":{"start":{"line":7,"column":0},"end":{"line":7,"column":null}}},"fnMap":{"0":{"name":"(anonymous_0)","decl":{"start":{"line":2,"column":4},"end":{"line":2,"column":10}},"loc":{"start":{"line":2,"column":21},"end":{"line":4,"column":5}}}},"branchMap":{},"s":{"0":1,"1":1},"f":{"0":1},"b":{}}
-}

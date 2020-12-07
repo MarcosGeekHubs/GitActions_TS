@@ -4,6 +4,10 @@ describe('Hello World', () => {
 
   it('Send One return one', () => {
     expect(HelloWorld.helloWorld()).toEqual("Hello World")
+  });
+
+  it('Send One return one', () => {
+    expect(HelloWorld.helloWorld()).toEqual("Hello ")
   })
 
 })
