@@ -33,6 +33,12 @@ jobs:
         
 
       # Runs a single command using the runners shell
-      - name: yarn 
+      - name: yarn install
         run: npm install -g yarn && yarn install
+      
+      - name: yarn test lint
+        run: yarn test:lint
+      
+      - name: yarn test coverage
+        run: jest --coverage --no-cache
 
