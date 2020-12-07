@@ -43,4 +43,7 @@ jobs:
       
       - name: yarn test coverage
         run: yarn test:coverage
+      
+      - name: yarn build
+        run: yarn run build
 
