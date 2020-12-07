@@ -1,16 +1,10 @@
 {
-  "name": "skeleton-kata-typescript",
+  "name": "git-actions-ts",
   "version": "0.0.1",
   "description": "Proyecto inicial para realizar Kata en Typescript.",
-  "author": {
-    "name": "Fco. Marcos Palacios Rovira",
-    "email": "fcoparo@gmail.com"
-  },
+  "author": "Fco. Marcos Palacios Rovira <m.palacios@geekshubs.com>",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marcware/skeleton-kata-typescript.git"
-  },
+  "repository": "https://github.com/MarcosGeekHubs/GitActions_TS",
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "@types/node": "^14.0.12",
@@ -24,10 +18,16 @@
   },
   "scripts": {
     "test:yarn": "yarn lint:types && jest --no-cache",
-    "test:watch":"yarn lint && jest --watchAll --no-cache",
+    "test:watch": "yarn lint && jest --watchAll --no-cache",
+    "test:coverage": "jest --coverage",
     "lint": "yarn lint:types && yarn lint:ci",
     "lint:types": "yarn tsc --noEmit -p .",
-    "lint:ci": "eslint . --ext .tsx,.ts"
+    "lint:ci": "eslint . --ext .tsx,.ts",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
-  "dependencies": {}
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "main": "index.js"
 }
