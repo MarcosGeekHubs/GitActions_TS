@@ -9,4 +9,4 @@ class LogConsole {
 
 export default LogConsole;
 
-console.log("Hola mundo 2");
+console.log("Hola mundo Heroku");
