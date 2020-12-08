@@ -54,6 +54,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "gitactionsts" #Must be unique in Heroku
           heroku_email: "m.palacios@geekshubs.com"
+          healthcheck: "https://gitactionsts.herokuapp.com/health"
 
           
 
