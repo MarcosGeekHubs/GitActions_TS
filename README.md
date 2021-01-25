@@ -19,7 +19,7 @@ $ yarn test
 
 ## Metodología
 Para realizar los test utilizaremos TDD. 
-Por cada iteración crearemos un commit describiendo que iteración hemos realizado de TDD.
+Por cada iteración crearemos un commit describiendo que iteración hemos realizado de TDD
 
 Ejemplo:
 - Paso 1 test falla:
