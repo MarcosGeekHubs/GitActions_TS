@@ -1,7 +1,7 @@
 # GitActions_TS
 
 # skeleton-kata-typescript
-Proyecto para empezar un repo de zero
+Proyecto para empezar un repo de zero .
 
 ## Instalación 
 
